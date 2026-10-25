@@ -1,0 +1,20 @@
+{
+  "name": "hcm-lite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HCM Lite — AI-assisted Human Capital Management. Saylani Hackathon 2026.",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test",
+    "reset": "node scripts/reset.mjs"
+  }
+}

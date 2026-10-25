@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# local env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# database
+server/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# build output
+client/dist/
+dist/
+
+# logs / editor
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+
+# local validation scratch
+.work/
+client/.work/

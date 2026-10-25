@@ -1,0 +1,21 @@
+{
+  "routes": [
+    { "path": "/", "title": "HCM Lite — Human capital, answered" },
+    { "path": "/login", "title": "Sign in" },
+    { "path": "/setup", "title": "First-run setup" },
+    { "path": "/change-password", "title": "Change password" },
+    { "path": "/app", "title": "Dashboard" },
+    { "path": "/app/employees", "title": "Employees" },
+    { "path": "/app/employees/:id", "title": "Employee detail" },
+    { "path": "/app/attendance", "title": "Attendance" },
+    { "path": "/app/leave", "title": "Leave" },
+    { "path": "/app/payroll", "title": "Payroll" },
+    { "path": "/app/analytics", "title": "Analytics" },
+    { "path": "/app/assistant", "title": "AI assistant" },
+    { "path": "/app/announcements", "title": "Announcements" },
+    { "path": "/app/audit", "title": "Audit log" },
+    { "path": "/app/settings", "title": "Settings" },
+    { "path": "/app/users", "title": "Logins and access" },
+    { "path": "/app/profile", "title": "My profile" }
+  ]
+}
